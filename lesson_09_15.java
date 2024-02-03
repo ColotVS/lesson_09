@@ -15,4 +15,15 @@ public class lesson_09_15 {
     //0b1110 | 0b0000   0b1110
     //0b1010 | 0b0101   0b1111
     //0b1111 | 0b1010   0b1111
+
+    //Закомментируй ненужные строки кода, чтобы на экран вывелась цифра 5.
+    public static void main(String[] args) {
+        int x = 7;
+//      x = x & 25;
+        x = x & 5;
+//      x = x & 3;
+        x = x & 12;
+        x = x | 1;
+        System.out.println(x);
+    }
 }
